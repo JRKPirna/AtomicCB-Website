@@ -7,6 +7,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript">
+	$(document).ready(function() {
+		$('.menubutton').click(function() {
+			$('nav').slideToggle('slow');
+		});
+	});
 	</script>
 	</head>
 	<body>
@@ -22,7 +27,7 @@
 				<li><a href="index.html" class="active">Startseite</a></li>
 				<li><a href="index.html" class="active">Informationen</a></li>
 				<li><a href="index.html" class="active">Plugininfo</a></li>
-				<li><a href="index.html" class="active">Teammitglieder</a></li>
+				<li><a href="index.html" class="active">Team</a></li>
 				<li><a href="index.html" class="active">Bewerben</a></li>
 				<li><a href="index.html" class="active">Regelwerk</a></li>
 		</ul>
